@@ -1,10 +1,11 @@
-# Cookiecutter Templates
+# Templates
 
-This respository is contains a collection of Cookiecutter templates to generate various types of projects.
+A collection of Cookiecutter templates to generate various types of projects.
 
 ## Requirements
 
-- Cookiecutter
+- [Python](https://github.com/python/cpython)
+- [Cookiecutter](https://github.com/cookiecutter/cookiecutter)
 
 ## Usage
 
