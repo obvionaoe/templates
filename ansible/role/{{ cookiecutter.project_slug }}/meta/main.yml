@@ -1,0 +1,20 @@
+galaxy_info:
+  role_name: {{ cookiecutter.ansible_role_name }}
+  author: {{ cookiecutter.author_username }}
+  description: {{ cookiecutter.ansible_role_description }}
+  license: license ({{ cookiecutter.license }})
+  min_ansible_version: {{ cookiecutter.ansible_min_version }}
+  # platforms:
+  #   - name: Fedora
+  #     versions:
+  #     - all
+  #     - 25
+  #   - name: SomePlatform
+  #     versions:
+  #     - all
+  #     - 1.0
+  #     - 7
+  #     - 99.99
+  galaxy_tags: []
+
+dependencies: []

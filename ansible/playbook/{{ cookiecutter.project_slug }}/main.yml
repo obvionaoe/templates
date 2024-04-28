@@ -1,0 +1,12 @@
+---
+- name: ...
+  hosts: all
+  become: {{ cookiecutter.ansible_become | lower }}
+  gather_facts: true
+
+  tasks:
+    - name: ...
+      include_role:
+        name: ...
+      vars:
+        var: true

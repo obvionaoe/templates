@@ -1,0 +1,14 @@
+{
+    "templates": {
+        "ansible": {
+            "path": "./ansible",
+            "title": "Ansible",
+            "description": "Templates for Ansible"
+        },
+        "terraform": {
+            "path": "./terraform",
+            "title": "Terraform",
+            "description": "Templates for Terraform"
+        }
+    }
+}

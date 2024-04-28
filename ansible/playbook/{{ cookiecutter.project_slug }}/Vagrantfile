@@ -1,0 +1,19 @@
+{% if cookiecutter.vagrantfile -%}
+Vagrant.configure("2") do |config|
+    config.vm.box = "ubuntu/jammy64"
+
+    config.vm.box_check_update = false
+
+    config.vm.synced_folder ".", "/vagrant_data"
+
+    config.vm.provider "virtualbox" do |vb|
+        vb.gui = false
+        vb.memory = "4096"
+        vb.cpus = 4
+    end
+
+    config.vm.provision "ansible" do |ansible|
+        ansible.playbook = "main.yml"
+    end
+end
+{% endif %}

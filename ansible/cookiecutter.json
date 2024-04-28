@@ -1,0 +1,14 @@
+{
+    "templates": {
+        "playbook": {
+            "path": "./playbook",
+            "title": "Playbook",
+            "description": "A template for an Ansible Playbook"
+        },
+        "role": {
+            "path": "./role",
+            "title": "Role",
+            "description": "A template for an Ansible Role"
+        }
+    }
+}

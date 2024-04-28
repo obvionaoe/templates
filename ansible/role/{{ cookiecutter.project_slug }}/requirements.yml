@@ -1,0 +1,6 @@
+---
+roles:
+  - name: ...
+    src: git@github.com:.../....git
+    scm: git
+    version: "1.0"

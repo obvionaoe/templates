@@ -1,0 +1,34 @@
+{
+    "project_name": null,
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "license": ["MIT", "BSD", "ISC", "Apache-2.0", "GNUGPLv3", "None"],
+    "author_username": null,
+    "author_fullname": null,
+    "author_website": null,
+    "ansible_min_version": "'2.4'",
+    "ansible_role_name": "{{ cookiecutter.project_slug }}",
+    "ansible_role_description": "",
+    
+    "git_init": true,
+    "git_commit": true,
+    "git_remote": null,
+    "git_push": false,
+
+    "__prompts__": {
+        "project_name": "Select the project's name",
+        "project_slug": "Select the project's slug",
+        "license": {
+            "__prompt__": "Select the project's license"
+        },
+        "author_username": "Select the project author's username",
+        "author_fullname": "Select the project author's full name",
+        "author_website": "Select the project author's website",
+        "ansible_min_version": "Select the minimum version this Ansible Role requires",
+        "ansible_role_name": "Select the name for this Ansible Role",
+        "ansible_role_description": "Select the description for this Ansible Role",
+        "git_init": "Enable Git",
+        "git_commit": "Auto-commit when project generation is finished",
+        "git_remote": "Select the remote Git repository to set as origin",
+        "git_push": "Auto-push when project generation is finished"
+    }
+}

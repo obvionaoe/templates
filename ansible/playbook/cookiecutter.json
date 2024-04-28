@@ -1,0 +1,40 @@
+{
+    "project_name": null,
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+    "license": ["MIT", "BSD", "ISC", "Apache-2.0", "GNUGPLv3", "None"],
+    "author_fullname": null,
+    "ansible_nocows": true,
+    "ansible_roles_path": "./roles:/etc/ansible/roles",
+    "ansible_collections_path": "./roles:/etc/ansible/collections",
+    "ansible_inventory_file": "inventory",
+    "ansible_become": true,
+    "ansible_vault_password_file": "~/.ansible/vault",
+    "ansible_stdout_callback": "yaml",
+    "vagrantfile": false,
+
+    "git_init": true,
+    "git_commit": true,
+    "git_remote": null,
+    "git_push": false,
+
+    "__prompts__": {
+        "project_name": "Select the project's name",
+        "project_slug": "Select the project's slug",
+        "license": {
+            "__prompt__": "Select the project's license"
+        },
+        "author_username": "Select the project author's username",
+        "ansible_nocows": "Disable cowsay integration in Ansible",
+        "ansible_roles_path": "Select the playbook's roles path",
+        "ansible_collections_path": "Select the playbook's collections path",
+        "ansible_inventory_file": "Select the playbook's inventory file name",
+        "ansible_become": "Enable Ansible to become a privileged user",
+        "ansible_vault_password_file": "Select the playbook's Ansible Vault password file path",
+        "ansible_stdout_callback": "Select the playbook's stdout callback format",
+        "vagrantfile": "Enable Vagrantfile creation",
+        "git_init": "Enable Git",
+        "git_commit": "Auto-commit when project generation is finished",
+        "git_remote": "Select the remote Git repository to set as origin",
+        "git_push": "Auto-push when project generation is finished"
+    }
+}
